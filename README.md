@@ -1,23 +1,65 @@
-# Clinical-Data-Validation-and-Query-Management-Tracker
-Objective
+# Clinical Data Validation & Query Management Tracker
 
-Developed an Excel-based clinical data review system to identify data quality issues, automate validation checks, and simulate query management workflows used in clinical trials.
+## Project Overview
 
-Validation Checks
-Future Date Check
-Missing Age Check
-Invalid Gender Check
-Missing Patient ID Check
-Duplicate Patient ID Check
-Tools Used
-Microsoft Excel
-IF
-AND
-OR
-COUNTIF
-Data Validation
-Conditional Formatting
-Outcome
-Automated detection of data inconsistencies
-Generated query log for issue tracking
-Improved data integrity review process
+This project simulates a Clinical Data Management workflow using Microsoft Excel.
+
+The system validates patient records, identifies data quality issues, and manages data queries similar to those used in clinical trials.
+
+---
+
+## Features
+
+- Future Date Validation
+- Missing Age Detection
+- Invalid Gender Detection
+- Missing Patient ID Detection
+- Duplicate Patient ID Detection
+- Overall PASS/FAIL Status
+- Query Management Log
+- Dashboard Summary
+
+---
+
+## Tools Used
+
+- Microsoft Excel
+- IF Function
+- AND Function
+- OR Function
+- COUNTIF Function
+- Data Validation
+- Conditional Formatting
+
+---
+
+## Validation Rules
+
+| Validation Check | Purpose |
+|-----------------|---------|
+| Future Date Check | Detect future visit dates |
+| Missing Age Check | Detect blank age values |
+| Gender Check | Detect invalid gender entries |
+| Missing ID Check | Detect missing patient IDs |
+| Duplicate ID Check | Detect duplicate patient records |
+
+---
+
+## Dashboard Metrics
+
+- Total Records
+- Total PASS Records
+- Total FAIL Records
+- Open Queries
+
+---
+
+## Project Workflow
+
+Patient Data → Validation Checks → Query Log → Dashboard
+
+---
+
+## Outcome
+
+Developed an Excel-based data review system that automates validation checks and simulates query management workflows used in clinical data management.
